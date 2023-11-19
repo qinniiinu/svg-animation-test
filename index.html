@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .bg {
+        background-image: url(working/map.webp);
+        background-size: 100%;
+    }
+
+    .person_01 {
+        background-image: url(working/01.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .person_02 {
+        background-image: url(working/02.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .person_03 {
+        background-image: url(working/03.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .person_04 {
+        background-image: url(working/04.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .person_05 {
+        background-image: url(working/05.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+</style>
+
+
+<body>
+    <section style="margin: 0; overflow: hidden">
+
+
+        <svg viewBox="0 0 1600 2500" class="bg">
+            <g>
+                <g data="name=人物行走">
+                    <foreignObject x="0" y="0" width="365" height="620">
+                        <svg viewBox="0 " width="365" height="620">
+                            <g>
+                                <foreignObject x="0" y="0" width="365" height="620">
+                                    <svg viewBox="0 0 365 620" width="365" height="620" class="person_01">
+                                    </svg>
+                                </foreignObject>
+                                <foreignObject x="365" y="0" width="365" height="620">
+                                    <svg viewBox="0 0 365 620" width="365" height="620" class="person_02">
+                                    </svg>
+                                </foreignObject>
+                                <foreignObject x="730" y="0" width="365" height="620">
+                                    <svg viewBox="0 0 365 620" width="365" height="620" class="person_03">
+                                    </svg>
+                                </foreignObject>
+                                <foreignObject x="1095" y="0" width="365" height="620">
+                                    <svg viewBox="0 0 365 620" width="365" height="620" class="person_04">
+                                    </svg>
+                                </foreignObject>
+                                <foreignObject x="1460" y="0" width="365" height="620">
+                                    <svg viewBox="0" width="365" height="620" class="person_05">
+                                    </svg>
+                                </foreignObject>
+                                <animateTransform attributeName="transform" type="translate"
+                                    values="0 0;-365 0;-730 0;-1095 0;-1460 0 ; 0 0 " dur=".5s" repeatCount="indefinite"
+                                    calcMode="discrete">
+                                </animateTransform>
+                            </g>
+                        </svg>
+                    </foreignObject>
+                </g>
+
+                <animateMotion
+                    path="m383.6,78.48h342.79c83.66,0,152.5,92.31,152.5,204.5s-68.84,204.5-152.5,204.5H216.89c-83.66,0-152.5,92.31-152.5,204.5s68.84,204.5,152.5,204.5h510c83.66,0,152.5,92.31,152.5,204.5s-68.84,204.5-152.5,204.5H214.39c-84.22,0-152.5,91.56-152.5,204.5s68.28,204.5,152.5,204.5h275"
+                    dur="8s" repeatCount="indefinite">
+                </animateMotion>
+            </g>
+
+
+
+
+        </svg>
+    </section>
+</body>
+
+
+</html>
